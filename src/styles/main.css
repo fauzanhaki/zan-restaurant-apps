@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+.skip-link {
+  background-color: blue;
+  color: white;
+  left: 0;
+  position: absolute;
+  padding: 8px;
+  top: -40px;
+  z-index: 100;
+}
+.skip-link:focus {
+  top: 0;
+}
+.like {
+  align-items: center;
+  background-color: blue;
+  border-radius: 60%;
+  border: 0;
+  bottom: 2rem;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-size: 30px;
+  height: 4rem;
+  position: fixed;
+  right: 2rem;
+  width: 4rem;
+  justify-content: center;
+} /* aman1 */
+nav {
+  align-items: center;
+  background-color: #00000080;
+  display: flex;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  padding: 1.5rem 1rem;
+  justify-content: space-between;
+  z-index: 1;
+}
+.logo {
+  font-size: 44px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
+.drawer {
+  margin-top: -5.5rem;
+  color: rgb(216, 216, 216);
+  display: none;
+  font-size: 60px;
+  height: 1rem;
+  padding: 3rem;
+  text-decoration: none;
+  width: 3rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.nav-bar {
+  align-items: center;
+  display: flex;
+  padding: 1.5rem 1rem;
+  width: 100%;
+  justify-content: space-between;
+}
+.nav-menu-dropdown {
+  display: flex;
+  gap: 3rem;list-style: none;
+  margin-right: 2rem;
+}
+button.drawer {
+  background: none;
+  border: none;
+}
+.nav-link {
+  font-size: 42px;
+  font-weight: 200;
+  color: #fff;
+  text-decoration: none;
+  margin: auto 1.3rem;
+}
+.nav-link:hover {
+  color: #fff;
+}
+.nav-item {
+  list-style: none;
+}
+.jumbotron {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.jumbotron picture {
+  width: 100%;
+}
+
+.jumbotron img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  box-shadow: linear-gradient(360deg, rgb(0, 0, 0, 0.9), transparent 60%);
+}
+/* .jumbotron .display-1 {
+  margin-top: -200px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+  color: #fff;
+  margin-top: 150px;
+} */
+.rating {
+  margin: 1rem;
+}
+.description {
+  text-align: start;
+  text-indent: 2rem;
+  margin: 1rem 2rem;
+}
+.name {
+  text-decoration: none;
+  padding: 2rem;
+  color: yellow;
+}
+.rating {
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: yellow;
+}
+.restaurant {
+  background-color: #000;
+}
+.restaurant-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.restaurant-title {
+  text-align: center;
+  padding: 2rem;
+  background-color: #000;
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.restaurant .card img {
+  height: 60vh;
+  width: 100%;
+  object-fit: cover;
+  border: 0.2rem;
+}
+#mainContent {
+  background-color: #111;
+  color: #fff;
+}
+.card {
+  color: #fff;
+  margin-bottom: 2rem;
+  width: 30rem;
+  display: column;
+  background-color: rgb(80, 77, 77, 0.4);
+  padding-bottom: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.favorite-header {
+  font-size: 2rem;
+  text-align: center;
+  padding: 8rem 1rem 2rem;
+}
+.favoriteNull {
+  text-align: center;
+  font-size: 3rem;
+  padding: 11.4rem 0;
+  color: #ffe300;
+}
+.img-cards {
+  width: 95%;
+}
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100%;
+  font-family: sans-serif;
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-bottom {
+  background: #000;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
